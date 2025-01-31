@@ -23,7 +23,7 @@ struct Item: Identifiable {
 }
 
 /// Sample Intro page items
-var items: [Item] = [
+let items: [Item] = [
     .init(image: "figure.walk.circle.fill", title: "Keep an eye on your workout."),
     .init(
         image: "figure.run.circle.fill",
